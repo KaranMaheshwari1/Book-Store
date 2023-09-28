@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="Stylish.css">
+<meta charset="ISO-8859-1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<title>Insert title here</title>
+<style>
+.navbar{
+background-color: black;
+}
+.navbar{
+overflow:auto;
+border-radius: 15px;
+}
+.navbar li{
+float: left;
+list-style: none;
+margin: 10px 20px;
+padding-bottom: 9px;
+}
+.navbar{
+	align-items: center;
+}
+.navbar li a{
+padding: 3px 3px;
+text-decoration: none;
+color: white;
+text-align: center;
+}
+.navbar li a:hover {
+background-color: gray;
+}
+.search{
+float: right;
+color: white;
+padding: 2px 80px;
+height: 30px
+}
+.navbar input{
+border: 2px solid black;
+border-radius: 14px;
+padding: 8px 40px;
+width: 140px;
+}
+</style>
+<nav class="navbar">
+<ul>
+<li><a href="booklist">Home</a></li>
+<li><a href="booklist">About</a></li>
+<li><a href="booklist">Contact Us</a></li>
+<li><a href="booklist">Logout</a></li>
+<div class="search">
+<input type ="text" name = "search" id="search" placeholder="Search Here">
+</div>
+</ul>
+</nav>
+</head>
+<body >
+<h2 style = "text-align: center; font-size: 60px; color: yellow " > Book Registration</h2>
+<form action="register" method ="post" style="padding:10px; margin-left: 180px;">
+<table>
+<tr>
+<div class="input-name">
+<td style="font-size: 40px; color:yellow;">Book Name </td>
+<td><input type = "text" name ="bookname" style="color:black; font-size:25px; width: 120%;height: 30px;" class ="name"> </td>
+</div>
+</tr>
+
+<tr>
+<td style="font-size: 40px; color:yellow;">Book Edition</td>
+<td><input type = "text" name ="bookEdition" style="color:black; font-size:25px; width: 120%; height: 30px;" class ="name"> </td>
+</tr>
+
+<tr>
+<td style="font-size: 40px; color:yellow;">Book Price</td>
+<td><input type = "text" name ="bookprice" style="color:black; font-size:25px; width: 120%; height: 30px;" class ="name"> </td>
+</tr>
+<tr>
+<td><input type ="submit" class ="button" value = "Register" style="width:100%"></td>
+
+<td> &nbsp; &nbsp; &nbsp;
+<input type = "reset" class ="button" value ="Cancel" style="width:50%"> </td>
+</tr>
+</table>
+<a href='booklist' style="color: yellow">Book List</a>
+</form>
+</body>
+</html>

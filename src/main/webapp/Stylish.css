@@ -1,0 +1,24 @@
+body
+{
+	background-image: url('book.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 24px;
+}
+
+.button
+{
+	background-color: 	SeaGreen;
+	font-weight:bolder;
+	color: white;
+	
+	font-size: 25px;
+	cursor: pointer;
+	margin: 10px;
+}
+.button:hover
+{
+	background:green;
+}
+/* font-family: 'Dancing Script', cursive;
+*/
